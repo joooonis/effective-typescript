@@ -11,16 +11,16 @@ function restOfPath(path: string) {
 }
 
 // null Error
-function getElement(elOrId: string | HTMLElement | null): HTMLElement {
-  if (typeof elOrId === 'object') {
-    return elOrId;
-  } else if (elOrId === null) {
-    return document.body;
-  } else {
-    const el = document.getElementById(elOrId);
-    return el;
-  }
-}
+// function getElement(elOrId: string | HTMLElement | null): HTMLElement {
+//   if (typeof elOrId === 'object') {
+//     return elOrId;
+//   } else if (elOrId === null) {
+//     return document.body;
+//   } else {
+//     const el = document.getElementById(elOrId);
+//     return el;
+//   }
+// }
 
 function getElementFixed(elOrId: string | HTMLElement | null): HTMLElement {
   if (typeof elOrId === 'object') {
